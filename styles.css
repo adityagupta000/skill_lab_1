@@ -1,0 +1,141 @@
+body {
+  background: linear-gradient(to right, #000000, #ff0000, #000000);
+  font-family: 'Arial', sans-serif;
+}
+
+#professionalCarousel .carousel-item img {
+    width: 100%;
+    height: 750px;
+}
+
+#professionalCarousel {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.form-control {
+    margin-right: 15px;
+}
+
+.form-control:focus {
+    border-color: rgb(21, 0, 255);
+    box-shadow: 0 0 5px rgba(21, 0, 255, 0.5);
+}
+
+.btn-outline-danger:hover {
+    background-color: red;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    position: relative;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    position: absolute;
+    left: 30px;
+}
+
+.option {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-right: auto;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff0000;
+}
+.carousel-caption {
+    color: black; /* Change caption text color to black */
+  }
+  /* Custom styles for carousel control buttons */
+  .carousel-control-prev,
+  .carousel-control-next,
+  .custom-carousel-button {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent black background */
+    border-radius: 0; /* Make it square */
+    height: 50px; /* Adjust height as needed */
+    width: 50px; /* Adjust width as needed */
+    top: 50%; /* Position vertically centered */
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px; /* Adjust margin as needed */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px; /* Adjust arrow size */
+    height: 20px; /* Adjust arrow size */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-control-prev {
+    left: 10px; /* Adjust position as needed */
+  }
+
+  .carousel-control-next {
+    right: 10px; /* Adjust position as needed */
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="https://cdn4.iconfinder.com/data/icons/ui-icon-part-3/131/slider-512.png" viewBox="0 0 24 24"%3E%3Cpath d="M15.59 8.59L10 14.17 4.41 8.59 3 10l7 7 7-7-1.41-1.41zM18 19h-1V5h1z"/%3E%3C/svg%3E');
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="https://cdn4.iconfinder.com/data/icons/ui-icon-part-3/131/slider-512.png" viewBox="0 0 24 24"%3E%3Cpath d="M10 6.83v10.34l5.59-5.59L17 12l-7 7-7-7 1.41-1.41L9 17.17V6.83z"/%3E%3C/svg%3E');
+  }
+
+  /* On hover effect */
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover,
+  .custom-carousel-button:hover {
+    background: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: adjust as needed */
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 1rem); /* Adjust width as needed */
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
